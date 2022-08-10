@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Weather App</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="navbar">
-        <h1 class="title">Weather App</h1>
-        <form onsubmit="return false">
-            <label for="location">Enter your location:</label>
-            <input id="inputLocation" type="text">
-            <button id="submitButton">Submit</button>
-        </form>
+      <h1 class="title">Weather App</h1>
+      <form onsubmit="return false">
+        <label for="location">Enter your location:</label>
+        <input id="inputLocation" type="text" />
+        <button id="submitButton">Submit</button>
+      </form>
     </div>
 
     <div class="mainContainer">
-        <div class="locationName"></div>
-        <div class="description"></div>
-        <div class="temp"></div>
-        <div class="feelsLike"></div>
-        <div class="humidity"></div>
-        <div class="windSpeed"></div>
+      <div class="locationName"></div>
+      <div class="description"></div>
+      <div class="temp"></div>
+      <div class="feelsLike"></div>
+      <div class="humidity"></div>
+      <div class="windSpeed"></div>
     </div>
 
     <div class="toggleContainer">
-        <div id="celsiusButton" class="tempToggle">C</div>
-        <div id="farenheitButton" class="tempToggle">F</div>
+      <div id="celsiusButton" class="tempToggle">C</div>
+      <div id="farenheitButton" class="tempToggle">F</div>
     </div>
     <script src="myscript.js"></script>
-</body>
+  </body>
 </html>
