@@ -13,3 +13,5 @@ Also easily switch between farenheit and celcius using the convenient conversion
 
 This project is an example of practicing knowledge of HTML, CSS, and Javascript.
 This project also uses an API key as well as uses JSON to format the data that is retrieved. 
+
+See live version at https://shelbymar.github.io/WeatherApp/
